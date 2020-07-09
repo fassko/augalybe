@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6384E90724B7A6B700805602 /* auGalybeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E90624B7A6B700805602 /* auGalybeApp.swift */; };
+		6384E90924B7A6B700805602 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E90824B7A6B700805602 /* ContentView.swift */; };
+		6384E90B24B7A6B900805602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6384E90A24B7A6B900805602 /* Assets.xcassets */; };
+		6384E90E24B7A6B900805602 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6384E90D24B7A6B900805602 /* Preview Assets.xcassets */; };
+		6384E91924B7A6B900805602 /* auGalybeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E91824B7A6B900805602 /* auGalybeTests.swift */; };
+		6384E92424B7A6B900805602 /* auGalybeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E92324B7A6B900805602 /* auGalybeUITests.swift */; };
+		6384E93724B7A70F00805602 /* AuGalybeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E93124B7A70F00805602 /* AuGalybeAPI.swift */; };
+		6384E93824B7A70F00805602 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E93324B7A70F00805602 /* Picture.swift */; };
+		6384E93924B7A70F00805602 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E93424B7A70F00805602 /* Restaurants.swift */; };
+		6384E93B24B7A70F00805602 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E93624B7A70F00805602 /* Restaurant.swift */; };
+		6384E93D24B7A72B00805602 /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E93C24B7A72B00805602 /* PlacesListView.swift */; };
+		6384E94124B7A8E000805602 /* RestaurantWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E94024B7A8E000805602 /* RestaurantWrapper.swift */; };
+		6384E94324B7AF5700805602 /* RestaurantsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E94224B7AF5700805602 /* RestaurantsMapView.swift */; };
+		6384E94524B7B18900805602 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6384E94424B7B18900805602 /* RestaurantDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6384E91524B7A6B900805602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6384E8FB24B7A6B700805602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6384E90224B7A6B700805602;
+			remoteInfo = auGalybe;
+		};
+		6384E92024B7A6B900805602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6384E8FB24B7A6B700805602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6384E90224B7A6B700805602;
+			remoteInfo = auGalybe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6384E90324B7A6B700805602 /* auGalybe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auGalybe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6384E90624B7A6B700805602 /* auGalybeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auGalybeApp.swift; sourceTree = "<group>"; };
+		6384E90824B7A6B700805602 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6384E90A24B7A6B900805602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6384E90D24B7A6B900805602 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6384E90F24B7A6B900805602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6384E91424B7A6B900805602 /* auGalybeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = auGalybeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6384E91824B7A6B900805602 /* auGalybeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auGalybeTests.swift; sourceTree = "<group>"; };
+		6384E91A24B7A6B900805602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6384E91F24B7A6B900805602 /* auGalybeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = auGalybeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6384E92324B7A6B900805602 /* auGalybeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auGalybeUITests.swift; sourceTree = "<group>"; };
+		6384E92524B7A6B900805602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6384E93124B7A70F00805602 /* AuGalybeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuGalybeAPI.swift; sourceTree = "<group>"; };
+		6384E93324B7A70F00805602 /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		6384E93424B7A70F00805602 /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		6384E93624B7A70F00805602 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		6384E93C24B7A72B00805602 /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
+		6384E94024B7A8E000805602 /* RestaurantWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantWrapper.swift; sourceTree = "<group>"; };
+		6384E94224B7AF5700805602 /* RestaurantsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsMapView.swift; sourceTree = "<group>"; };
+		6384E94424B7B18900805602 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6384E90024B7A6B700805602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6384E91124B7A6B900805602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6384E91C24B7A6B900805602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6384E8FA24B7A6B700805602 = {
+			isa = PBXGroup;
+			children = (
+				6384E90524B7A6B700805602 /* auGalybe */,
+				6384E91724B7A6B900805602 /* auGalybeTests */,
+				6384E92224B7A6B900805602 /* auGalybeUITests */,
+				6384E90424B7A6B700805602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6384E90424B7A6B700805602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6384E90324B7A6B700805602 /* auGalybe.app */,
+				6384E91424B7A6B900805602 /* auGalybeTests.xctest */,
+				6384E91F24B7A6B900805602 /* auGalybeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6384E90524B7A6B700805602 /* auGalybe */ = {
+			isa = PBXGroup;
+			children = (
+				6384E90624B7A6B700805602 /* auGalybeApp.swift */,
+				6384E90824B7A6B700805602 /* ContentView.swift */,
+				6384E93C24B7A72B00805602 /* PlacesListView.swift */,
+				6384E94424B7B18900805602 /* RestaurantDetailsView.swift */,
+				6384E94224B7AF5700805602 /* RestaurantsMapView.swift */,
+				6384E93124B7A70F00805602 /* AuGalybeAPI.swift */,
+				6384E93224B7A70F00805602 /* Models */,
+				6384E90A24B7A6B900805602 /* Assets.xcassets */,
+				6384E90F24B7A6B900805602 /* Info.plist */,
+				6384E90C24B7A6B900805602 /* Preview Content */,
+			);
+			path = auGalybe;
+			sourceTree = "<group>";
+		};
+		6384E90C24B7A6B900805602 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6384E90D24B7A6B900805602 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6384E91724B7A6B900805602 /* auGalybeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6384E91824B7A6B900805602 /* auGalybeTests.swift */,
+				6384E91A24B7A6B900805602 /* Info.plist */,
+			);
+			path = auGalybeTests;
+			sourceTree = "<group>";
+		};
+		6384E92224B7A6B900805602 /* auGalybeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6384E92324B7A6B900805602 /* auGalybeUITests.swift */,
+				6384E92524B7A6B900805602 /* Info.plist */,
+			);
+			path = auGalybeUITests;
+			sourceTree = "<group>";
+		};
+		6384E93224B7A70F00805602 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6384E94024B7A8E000805602 /* RestaurantWrapper.swift */,
+				6384E93324B7A70F00805602 /* Picture.swift */,
+				6384E93424B7A70F00805602 /* Restaurants.swift */,
+				6384E93624B7A70F00805602 /* Restaurant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6384E90224B7A6B700805602 /* auGalybe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6384E92824B7A6B900805602 /* Build configuration list for PBXNativeTarget "auGalybe" */;
+			buildPhases = (
+				6384E8FF24B7A6B700805602 /* Sources */,
+				6384E90024B7A6B700805602 /* Frameworks */,
+				6384E90124B7A6B700805602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = auGalybe;
+			productName = auGalybe;
+			productReference = 6384E90324B7A6B700805602 /* auGalybe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6384E91324B7A6B900805602 /* auGalybeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6384E92B24B7A6B900805602 /* Build configuration list for PBXNativeTarget "auGalybeTests" */;
+			buildPhases = (
+				6384E91024B7A6B900805602 /* Sources */,
+				6384E91124B7A6B900805602 /* Frameworks */,
+				6384E91224B7A6B900805602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6384E91624B7A6B900805602 /* PBXTargetDependency */,
+			);
+			name = auGalybeTests;
+			productName = auGalybeTests;
+			productReference = 6384E91424B7A6B900805602 /* auGalybeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6384E91E24B7A6B900805602 /* auGalybeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6384E92E24B7A6B900805602 /* Build configuration list for PBXNativeTarget "auGalybeUITests" */;
+			buildPhases = (
+				6384E91B24B7A6B900805602 /* Sources */,
+				6384E91C24B7A6B900805602 /* Frameworks */,
+				6384E91D24B7A6B900805602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6384E92124B7A6B900805602 /* PBXTargetDependency */,
+			);
+			name = auGalybeUITests;
+			productName = auGalybeUITests;
+			productReference = 6384E91F24B7A6B900805602 /* auGalybeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6384E8FB24B7A6B700805602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6384E90224B7A6B700805602 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6384E91324B7A6B900805602 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6384E90224B7A6B700805602;
+					};
+					6384E91E24B7A6B900805602 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 6384E90224B7A6B700805602;
+					};
+				};
+			};
+			buildConfigurationList = 6384E8FE24B7A6B700805602 /* Build configuration list for PBXProject "auGalybe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6384E8FA24B7A6B700805602;
+			productRefGroup = 6384E90424B7A6B700805602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6384E90224B7A6B700805602 /* auGalybe */,
+				6384E91324B7A6B900805602 /* auGalybeTests */,
+				6384E91E24B7A6B900805602 /* auGalybeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6384E90124B7A6B700805602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6384E90E24B7A6B900805602 /* Preview Assets.xcassets in Resources */,
+				6384E90B24B7A6B900805602 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6384E91224B7A6B900805602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6384E91D24B7A6B900805602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6384E8FF24B7A6B700805602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6384E93924B7A70F00805602 /* Restaurants.swift in Sources */,
+				6384E93824B7A70F00805602 /* Picture.swift in Sources */,
+				6384E93B24B7A70F00805602 /* Restaurant.swift in Sources */,
+				6384E93724B7A70F00805602 /* AuGalybeAPI.swift in Sources */,
+				6384E94324B7AF5700805602 /* RestaurantsMapView.swift in Sources */,
+				6384E94124B7A8E000805602 /* RestaurantWrapper.swift in Sources */,
+				6384E94524B7B18900805602 /* RestaurantDetailsView.swift in Sources */,
+				6384E90924B7A6B700805602 /* ContentView.swift in Sources */,
+				6384E93D24B7A72B00805602 /* PlacesListView.swift in Sources */,
+				6384E90724B7A6B700805602 /* auGalybeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6384E91024B7A6B900805602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6384E91924B7A6B900805602 /* auGalybeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6384E91B24B7A6B900805602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6384E92424B7A6B900805602 /* auGalybeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6384E91624B7A6B900805602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6384E90224B7A6B700805602 /* auGalybe */;
+			targetProxy = 6384E91524B7A6B900805602 /* PBXContainerItemProxy */;
+		};
+		6384E92124B7A6B900805602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6384E90224B7A6B700805602 /* auGalybe */;
+			targetProxy = 6384E92024B7A6B900805602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6384E92624B7A6B900805602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6384E92724B7A6B900805602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6384E92924B7A6B900805602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"auGalybe/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SGNZQGS68;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = auGalybe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fassko.auGalybe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6384E92A24B7A6B900805602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"auGalybe/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SGNZQGS68;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = auGalybe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fassko.auGalybe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6384E92C24B7A6B900805602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SGNZQGS68;
+				INFOPLIST_FILE = auGalybeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fassko.auGalybeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/auGalybe.app/auGalybe";
+			};
+			name = Debug;
+		};
+		6384E92D24B7A6B900805602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SGNZQGS68;
+				INFOPLIST_FILE = auGalybeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fassko.auGalybeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/auGalybe.app/auGalybe";
+			};
+			name = Release;
+		};
+		6384E92F24B7A6B900805602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SGNZQGS68;
+				INFOPLIST_FILE = auGalybeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fassko.auGalybeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = auGalybe;
+			};
+			name = Debug;
+		};
+		6384E93024B7A6B900805602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SGNZQGS68;
+				INFOPLIST_FILE = auGalybeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fassko.auGalybeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = auGalybe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6384E8FE24B7A6B700805602 /* Build configuration list for PBXProject "auGalybe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6384E92624B7A6B900805602 /* Debug */,
+				6384E92724B7A6B900805602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6384E92824B7A6B900805602 /* Build configuration list for PBXNativeTarget "auGalybe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6384E92924B7A6B900805602 /* Debug */,
+				6384E92A24B7A6B900805602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6384E92B24B7A6B900805602 /* Build configuration list for PBXNativeTarget "auGalybeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6384E92C24B7A6B900805602 /* Debug */,
+				6384E92D24B7A6B900805602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6384E92E24B7A6B900805602 /* Build configuration list for PBXNativeTarget "auGalybeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6384E92F24B7A6B900805602 /* Debug */,
+				6384E93024B7A6B900805602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6384E8FB24B7A6B700805602 /* Project object */;
+}
